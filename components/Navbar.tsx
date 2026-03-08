@@ -9,9 +9,9 @@ const sections = [
   { id: "barroco", label: "El Barroco" },
   { id: "topicos", label: "Tópicos" },
   { id: "estilo", label: "Estilo" },
+  { id: "galeria", label: "Pintura" },
   { id: "vertientes", label: "Vertientes" },
   { id: "comparativa", label: "Comparativa" },
-  { id: "autores", label: "Autores" },
   { id: "conclusion", label: "Conclusión" },
 ];
 
@@ -64,14 +64,8 @@ export default function Navbar() {
         className="absolute inset-0 bg-[#0a0a0a]"
         style={{ opacity: bgOpacity }}
       />
-      <div className="relative flex items-center justify-between px-6 lg:px-12 h-14">
-        <span
-          className="font-display text-sm font-bold tracking-widest text-[#c9a84c] uppercase cursor-pointer"
-          onClick={() => scrollTo("hero")}
-        >
-          Barroco
-        </span>
-        <ul className="hidden md:flex items-center gap-6 relative">
+      <div className="relative flex items-center justify-center px-6 lg:px-12 h-14">
+        <ul className="hidden md:flex items-center justify-around w-full gap-6 relative">
           {sections.slice(1).map(({ id, label }) => (
             <li key={id} className="relative">
               <button

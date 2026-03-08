@@ -6,7 +6,7 @@ import ElBarroco from "@/components/ElBarroco";
 import TemasBarroco from "@/components/TemasBarroco";
 import TopicosLiterarios from "@/components/TopicosLiterarios";
 import EstiloBarroco from "@/components/EstiloBarroco";
-import Autores from "@/components/Autores";
+import GaleriaBarroco from "@/components/GaleriaBarroco";
 
 // GSAP components importados con ssr: false
 const ContextoHistorico = dynamic(
@@ -40,9 +40,9 @@ export default function Home() {
       <TemasBarroco />
       <TopicosLiterarios />
       <EstiloBarroco />
+      <GaleriaBarroco />
       <DosVertientes />
       <Comparativa />
-      <Autores />
       <Conclusion />
 
       <footer className="border-t border-[#2a2a2a] py-8 px-6 text-center">
