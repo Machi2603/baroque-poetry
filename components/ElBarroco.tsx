@@ -57,7 +57,7 @@ export default function ElBarroco() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <p className="font-label text-xs tracking-[0.4em] uppercase text-[#c9a84c] mb-4">
-            03 — El Barroco
+            02 — El Barroco
           </p>
           <h2
             className="font-display font-bold text-[#f5f5f7] leading-tight"

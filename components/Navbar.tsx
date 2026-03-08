@@ -7,6 +7,7 @@ const sections = [
   { id: "hero", label: "Inicio" },
   { id: "contexto", label: "Contexto" },
   { id: "barroco", label: "El Barroco" },
+  { id: "temas", label: "Temas" },
   { id: "topicos", label: "Tópicos" },
   { id: "estilo", label: "Estilo" },
   { id: "galeria", label: "Pintura" },

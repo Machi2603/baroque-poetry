@@ -213,7 +213,7 @@ export default function GaleriaBarroco() {
             className="font-label text-xs tracking-[0.4em] uppercase"
             style={{ color: "#c9a84c" }}
           >
-            05 — El Arte Barroco
+            06 — El Arte Barroco
           </span>
         </div>
       </div>

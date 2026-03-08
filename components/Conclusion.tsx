@@ -72,7 +72,7 @@ export default function Conclusion() {
       <div className="sticky top-0 h-screen flex items-center justify-center px-6 overflow-hidden">
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <p className="font-label text-xs tracking-[0.4em] uppercase text-[#c9a84c] mb-12">
-            08 — Conclusión
+            09 — Conclusión
           </p>
 
           <div className="space-y-3">
